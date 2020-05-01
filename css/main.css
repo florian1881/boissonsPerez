@@ -1,0 +1,73 @@
+/* Font police for all the website */
+*{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+/* Image tht cover all the website*/
+body{
+    background-image: url(../img/background.jpg);
+}
+ /*Reset CSS*/
+a{
+    text-decoration: none; 
+
+}
+a:hover{
+    color: darkgrey;
+    text-decoration: none;
+}
+/*title of the website*/
+h1
+{
+	color:white;
+    background-color: rgba(5,5,5,0.7);
+    
+}
+/*title of the cards*/
+h2{
+    background-color: black;
+    text-align: center;
+    white-space: nowrap
+}
+.category{
+    background-color: rgba(5,5,5, 0.7);
+}
+
+/* titre/ links in t-r*/
+.nav{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+/* Title in header */
+.myCard{
+    color: bisque ;
+    border-radius: 10%;
+}
+
+.myCard img{
+    opacity: 1;
+    width: 14em;
+}
+/*Effect on img */
+img:hover{
+    transform: rotate(0.99turn);
+}
+
+footer{
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	
+}
+.credit,.avertissement{
+	color:white;
+}
+.credit{
+	text-align: right;
+}
+
+
